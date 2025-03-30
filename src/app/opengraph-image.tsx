@@ -95,6 +95,19 @@ Please refer to Satori’s documentation for a list of supported HTML and CSS fe
       >
         <h1 tw="text-9xl text-center font-semibold">{PROJECT_TITLE}</h1>
         <h3 tw="text-4xl font-normal">{PROJECT_DESCRIPTION}</h3>
+        
+        {/* Simple snake game visual */}
+        <div tw="mt-8 flex flex-col items-center">
+          <div tw="bg-gray-900 p-4 rounded-lg">
+            <div tw="text-2xl text-white mb-2">Snake Game</div>
+            <div tw="flex items-center justify-center">
+              <div tw="w-6 h-6 bg-green-500 rounded-sm mr-1"></div>
+              <div tw="w-6 h-6 bg-green-500 rounded-sm mr-1"></div>
+              <div tw="w-6 h-6 bg-green-700 rounded-sm mr-4"></div>
+              <div tw="w-5 h-5 bg-red-500 rounded-full"></div>
+            </div>
+          </div>
+        </div>
       </div>
     ),
     options
